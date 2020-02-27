@@ -109,7 +109,7 @@ function start(lettuce) {
 	async function start(){
 		await show(undefined, 5000)
 		for(let i=2; i<50;i++){
-			const delay = textList[i-2].length * 250 + 2000;
+			const delay = textList[i-2].length * 250 + 3250;
 			await show(() => render('p' + i), delay)
 		}
 		await show(final, 4000)
