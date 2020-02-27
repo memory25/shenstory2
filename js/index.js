@@ -115,6 +115,7 @@ function start(lettuce) {
 		await show(final, 4000)
 		const div = document.createElement('div');
 		div.style.position = 'absolute';
+		div.style.width = 'auto';
 		div.style.height = '22px';
 		div.style.cursor = 'pointer';
 		div.style.bottom = '50%';
