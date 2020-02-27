@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    background: black;
+    font-family: Consolas, monospace;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes caret {
+    50% { border-color: transparent; }
+}
+
+.typeWrap{
+    font-family: Courier, monospace;
+    display: none;
+}
+
+
+#start {
+    background: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    color: #fff
+}
+
+#start button {
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width:200px;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	border-radius:5px;
+	border:solid 1px #D94E3B;
+	background:#cb3b27;
+	text-align:center;
+	padding:20px 30px;
+	transition: all 0.1s;
+	box-shadow: 0px 9px 0px #84261a;
+}
+
+.typing {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(50px);
+    position: absolute;
+    width: 950px;
+    font-size: 40px;
+    white-space:nowrap;
+    overflow:hidden;
+    letter-spacing: 2px;
+    border-right: 3px solid black;
+    animation: typing 3s steps(22), caret 1s steps(1) infinite;
+}
+
+#results{
+    margin: 0px;
+    padding: 0px;
+}
+
+#results > div{
+    width: 100vh;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    color:#FFF;
+    width: 90%;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    animation: 3s textFadein;
+}
+
+@keyframes textFadein{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+}
+
+
+
+
+.p1 {background: url("./imgs/1.png") no-repeat center center / cover fixed;}
+.p2 {background: url("./imgs/2.png") no-repeat center center / cover fixed;}
+.p3 {background: url("./imgs/3.png") no-repeat center center / cover fixed;}
+.p4 {background: url("./imgs/4.png") no-repeat center center / cover fixed;}
+.p5 {background: url("./imgs/5.png") no-repeat center center / cover fixed;}
+.p6 {background: url("./imgs/6.png") no-repeat center center / cover fixed;}
+.p7 {background: url("./imgs/7.png") no-repeat center center / cover fixed;}
+.p8 {background: url("./imgs/8.png") no-repeat center center / cover fixed;}
+.p9 {background: url("./imgs/9.png") no-repeat center center / cover fixed;}
+.p10 {background: url("./imgs/10.jpg") no-repeat center center / cover fixed;}
+.p11 {background: url("./imgs/11.png") no-repeat center center / cover fixed;}
+.p12 {background: url("./imgs/12.png") no-repeat center center / cover fixed;}
+.p13 {background: url("./imgs/13.png") no-repeat center center / cover fixed;}
+.p14 {background: url("./imgs/14.png") no-repeat center center / cover fixed;}
+.p15 {background: url("./imgs/15.png") no-repeat center center / cover fixed;}
+.p16 {background: url("./imgs/16.png") no-repeat center center / cover fixed;}
+.p17 {background: url("./imgs/17.png") no-repeat center center / cover fixed;}
+.p18 {background: url("./imgs/18.png") no-repeat center center / cover fixed;}
+.p19 {background: url("./imgs/19.png") no-repeat center center / cover fixed;}
+.p20 {background: url("./imgs/20.png") no-repeat center center / cover fixed;}
+.p21 {background: url("./imgs/21.jpg") no-repeat center center / cover fixed;}
+.p22 {background: url("./imgs/22.png") no-repeat center center / cover fixed;}
+.p23 {background: url("./imgs/23.png") no-repeat center center / cover fixed;}
+.p24 {background: url("./imgs/24.jpg") no-repeat center center / cover fixed;}
+.p25 {background: url("./imgs/25.gif") no-repeat center center / cover fixed;}
+.p26 {background: url("./imgs/26.png") no-repeat center center / cover fixed;}
+.p27 {background: url("./imgs/27.png") no-repeat center center / cover fixed;}
+.p28 {background: url("./imgs/28.jpg") no-repeat center center / cover fixed;}
+.p29 {background: url("./imgs/29.gif") no-repeat center center / cover fixed;}
+.p30 {background: url("./imgs/30.png") no-repeat center center / cover fixed;}
+.p31 {background: url("./imgs/31.png") no-repeat center center / cover fixed;}
+.p32 {background: url("./imgs/32.jpg") no-repeat center center / cover fixed;}
+.p33 {background: url("./imgs/33.png") no-repeat center center / cover fixed;}
+.p34 {background: url("./imgs/34.png") no-repeat center center / cover fixed;}
+.p35 {background: url("./imgs/35.png") no-repeat center center / cover fixed;}
+.p36 {background: url("./imgs/36.png") no-repeat center center / cover fixed;}
+.p37 {background: url("./imgs/37.png") no-repeat center center / cover fixed;}
+.p38 {background: url("./imgs/38.png") no-repeat center center / cover fixed;}
+.p39 {background: url("./imgs/39.png") no-repeat center center / cover fixed;}
+.p40 {background: url("./imgs/40.png") no-repeat center center / cover fixed;}
+.p41 {background: url("./imgs/41.png") no-repeat center center / cover fixed;}
+.p42 {background: url("./imgs/42.png") no-repeat center center / cover fixed;}
+.p43 {background: url("./imgs/43.png") no-repeat center center / cover fixed;}
+.p44 {background: url("./imgs/44.png") no-repeat center center / cover fixed;}
+.p45 {background: url("./imgs/45.png") no-repeat center center / cover fixed;}
+.p46 {background: url("./imgs/46.png") no-repeat center center / cover fixed;}
+.p47 {background: url("./imgs/47.png") no-repeat center center / cover fixed;}
+.p48 {background: url("./imgs/48.png") no-repeat center center / cover fixed;}
+.p49 {background: url("./imgs/49.png") no-repeat center center / cover fixed;}
